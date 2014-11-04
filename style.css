@@ -1,0 +1,150 @@
+body {
+  font-family: 'Lato', Arial;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6, ul {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+div {
+  /*border: 1px solid black;*/
+}
+
+.welcome,
+.preferences,
+.oogle-container,
+.oogle-matches {
+  padding: 20px 0;
+}
+
+.container {
+  border-top: 20px solid #000;
+}
+
+button {
+  background: #eee;
+  color: #999;
+  font-size: 18px;
+  border: none;
+  padding: 7px 22px;
+  border-radius: 5px;
+  margin: 5px 2px;
+  border: 5px solid #000;
+}
+
+button:hover,
+.gender-active {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+}
+
+button, input {
+  outline: none;
+}
+
+.highlight {
+  background: #E040FB;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 22px;
+  border: none;
+}
+
+.highlight:hover {
+  background: #D500F9;
+}
+
+input {
+  border: 5px solid #000;
+  font-size: 18px;
+  width: 25px;
+  padding: 7px 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.nav {
+  border-bottom: 6px double #000;
+}
+
+.nav-links li {
+  display: inline-block;
+  border: 3px solid #000;
+  border-radius: 5px;
+  padding: 7px 20px;
+  margin: 10px 5px;
+}
+
+.nav-links li:hover {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.active-link {
+  background: #000;
+  color: #fff;
+}
+
+.welcome {
+  background: #eee;
+}
+
+#start {
+  margin: 20px;
+  width: 150px;
+}
+
+.oogle-img {
+  background-size: 100%;
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+}
+
+.vote.highlight {
+  font-size: 18px;
+  padding: 12px 27px;
+}
+
+.oogle-matches {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.match-img {
+  background-size: 100%;
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  margin: 10px;
+}
+
+@media (min-width: 450px) {
+  .oogle-img {
+    width: 400px;
+    height: 400px;
+  }
+  .oogle-matches {
+    width: 400px;
+  }
+  .match-img {
+    width: 180px;
+    height: 180px;
+  }
+}
